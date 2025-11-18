@@ -14,7 +14,7 @@ from datetime import datetime
 # -----------------------------
 # CONFIG
 # -----------------------------
-SERVER_URL = "http://192.168.1.6:5000/"   # <- no trailing slash
+SERVER_URL = "http://192.168.1.6:5000"   # <- no trailing slash
 DATASET_TYPES = ["color","segmented"]  # server-side datasets we aggregate
 PAGE_TITLE = "🌿 Federated Plant Disease Detection —  Dashboard"
 
@@ -217,4 +217,5 @@ with f1:
     st.caption(f"✅ Server: {SERVER_URL}")
 with f2:
     st.caption("SEC PROJECT !!!!")
+
 
