@@ -217,3 +217,4 @@ with f1:
     st.caption(f"✅ Server: {SERVER_URL}")
 with f2:
     st.caption("SEC PROJECT !!!!")
+
